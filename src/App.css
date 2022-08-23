@@ -36,3 +36,67 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  background: whitesmoke;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+}
+.cab-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin: 0 auto; */
+  background: white;
+  border-radius: 14px;
+  min-width: 430px;
+}
+.cab-list {
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: flex-start; */
+  text-align: left;
+  gap: 39px;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+p.time-minu {
+  font-size: 14px;
+  color: grey;
+}
+img.cab-img {
+  transition: 0.2s;
+}
+h4.cab-name {
+  margin-top: 10px;
+  font-size: 18px;
+  text-align: left !important;
+}
+p.about-cab {
+  font-size: 16px;
+  color: grey;
+}
+.cab-group-container:nth-child(2) {
+  flex-grow: 1;
+}
+
+.cab-list:hover .time-minu {
+  color: black;
+}
+
+.cab-list:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.cab-list:hover .cab-img {
+  transform: scale(1.1);
+}
+.cab-price,
+.cab-discount {
+  text-align: right;
+}
+.cab-discount {
+  font-size: 12px;
+  color: grey;
+  text-decoration: line-through;
+}
