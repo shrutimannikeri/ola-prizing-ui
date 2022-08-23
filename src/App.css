@@ -62,17 +62,21 @@ body {
   flex-wrap: wrap;
 }
 p.time-minu {
-  font-size: 14px;
   color: grey;
+  font-size: 14px;
+  margin-top: 2px;
 }
 img.cab-img {
   transition: 0.2s;
 }
 h4.cab-name {
+  font-size: 14px;
   margin-top: 10px;
-  font-size: 18px;
-  text-align: left !important;
+  text-align: left!important;
+  margin-bottom: 2px;
 }
+
+
 p.about-cab {
   font-size: 16px;
   color: grey;
