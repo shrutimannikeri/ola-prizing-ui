@@ -8,3 +8,9 @@
       ))}
  4. Cabdisplay--> its dislpa all cab info
  5. PriceDetail component helps disply prize of cab we calling this component inside Cabdisplay components
+
+ 
+2.automatica deployment-netlify
+    1 netlify login
+    2.connect to github
+    3.CL=false npm run build
