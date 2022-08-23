@@ -49,17 +49,14 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-width: 528px;
-  flex-wrap: wrap;
 }
 .cab-list {
   display: flex;
   /* justify-content: space-between; */
   /* align-items: flex-start; */
   text-align: left;
-  gap: 39px;
+  gap: 23px;
   padding: 10px;
-  flex-wrap: wrap;
 }
 p.time-minu {
   color: grey;
